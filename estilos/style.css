@@ -100,5 +100,25 @@ nav .menu-btn i {
         background-color: #08438B;
         text-shadow: 2px 2px 3px  black;
     }
+}
 
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 10%;
+}
+
+.header-text {
+    max-width: 37rem;
+}
+
+.header-text .text-h1 {
+    font-size: 3.3rem;
+}
+
+.header-text .text-h2 {
+    font-size: 1.5rem;
+    margin-bottom: .7em;
 }
