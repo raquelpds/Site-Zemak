@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
 
+@font-face {
+    font-family: 'cabaret';
+    src: url('fontes/cabaret.otf') format('opentype'), url('fontes/cabaret.ttf') format ('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -116,6 +121,7 @@ nav .menu-btn i {
 
 .header-text .text-h1 {
     font-size: 3.3rem;
+    font-family: 'cabaret';
 }
 
 .header-text .text-h2 {
