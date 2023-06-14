@@ -150,6 +150,6 @@ nav .menu-btn i {
     }
 
     .header-img {
-        
+        max-width: 350px;
     }
 }
