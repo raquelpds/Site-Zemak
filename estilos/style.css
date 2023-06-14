@@ -167,7 +167,20 @@ nav .menu-btn i {
     }
 
     .header-img {
-        width: 100%;
-        
+        width: 50%;
+        display: block;
+        margin: auto;
+
     }
+}
+
+div.banner {
+    width: 100%;
+    background-color: #08438B;
+    text-align: center;
+
+}
+
+.banner-img {
+    width: 30%;
 }
