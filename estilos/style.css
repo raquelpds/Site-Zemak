@@ -168,8 +168,8 @@ nav .menu-btn i {
 
     .header-img {
         width: 50%;
-        display: block;
-        margin: auto;
+        position: fixed;
+        justify-self: center;
 
     }
 }
@@ -177,10 +177,13 @@ nav .menu-btn i {
 div.banner {
     width: 100%;
     background-color: #08438B;
-    text-align: center;
 
 }
 
-.banner-img {
-    width: 30%;
+.banner-p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    
 }
