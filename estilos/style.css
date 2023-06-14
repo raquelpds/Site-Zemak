@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 @font-face {
-    font-family: 'cabaret';
-    src: url('fontes/cabaret.otf') format('opentype'), url('fontes/cabaret.ttf') format ('truetype');
-}
+    font-family: 'minhaFonte' ;
+    src: url('WinterDisplay.otf'), url('WinterDisplayRegular.ttf') ;
+  }
 
 * {
     margin: 0;
@@ -121,17 +123,22 @@ nav .menu-btn i {
 
 .header-text .text-h1 {
     font-size: 3.3rem;
-    font-family: 'cabaret';
+    font-family: 'Bungee', cursive;
+
 }
 
 .header-text .text-h2 {
     font-size: 1.5rem;
     margin-bottom: .7em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
 }
 
 .header-text p {
     margin-bottom: 3em;
     font-size: 1em;
+    font-weight: 500;
 }
 
 .header-btn {
@@ -156,6 +163,6 @@ nav .menu-btn i {
     }
 
     .header-img {
-        max-width: 350px;
+        
     }
 }
