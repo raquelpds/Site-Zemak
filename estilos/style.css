@@ -150,6 +150,10 @@ nav .menu-btn i {
     transition: all 0.3s;
 }
 
+.header-btn:hover {
+
+}
+
 .header-img {
     width: 50%;
 }
@@ -163,6 +167,7 @@ nav .menu-btn i {
     }
 
     .header-img {
+        width: 100%;
         
     }
 }
