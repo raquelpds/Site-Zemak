@@ -138,7 +138,7 @@ nav .menu-btn i {
 }
 
 .header-img {
-   
+    width: 50%;
 }
 
 @media (max-width: 930px) {
@@ -149,7 +149,7 @@ nav .menu-btn i {
         gap: 3rem;
     }
 
-    .header .text-h1 {
+    .header-img {
         
     }
 }
