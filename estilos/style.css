@@ -32,7 +32,6 @@ nav .logo {
 nav .logo img {
     width: 230px;
     position: relative;
-    top: 10px;
     left: -49px;
 
     
@@ -144,10 +143,12 @@ nav .menu-btn i {
     border-radius: 10px;
     font-weight: 500;
     transition: all 0.3s;
+    text-decoration: none;
 }
 
 .header-btn:hover {
-
+    background-color: green;
+    text-decoration: underline;
 }
 
 .header-img {
@@ -185,30 +186,91 @@ div.banner {
     
 }
 
-.btn-ser-2 {
+.div-btn {
+    background-color: #08438B;
+    text-align: center;
+    padding: 15px;
+}
+.btn-server {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;;
     font-weight: 500;
-    
-}
-
-.btn-ser {
     background-color: #80aaff;
     padding: 14px 40px;
-    margin: 18px;
+    margin: px;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.359), 0 6px 20px 0 rgba(0, 0, 0, 0.183);
 }
 
-.btn-ser:hover {
+
+.btn-server:hover {
     background-color: #5395E6;
 
 }
 
-.btn-ser-2:hover {
+/**Estilos da página de serviços**/
 
+.section {
+    padding: 4.5rem 0 2rem;
 }
+
+.section--title {
+    font-size: 20px;
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.container {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+
+    
+}
+
+.specialty--img {
+    width: 100px;
+    margin-bottom: 1rem;
+    transition: .4s;
+}
+
+.specialty--category {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 200px ;
+    justify-content: center;
+    row-gap: 2.5rem;
+}
+
+.specialty--group  {
+    text-align: center;
+}
+
+.specialty--title {
+    font-size: 20px;
+    margin-bottom: .25rem;
+}
+
+.specialty--group:hover .specialty--img {
+    transform: translateY(-.25rem);
+}
+
+@media screen and (min-width: 576px) {
+    .specialty--category {
+        grid-template-columns: repeat(2, 200px);
+        column-gap: 3rem;
+    }
+}
+
+@media screen  and (min-width: 744px) {
+    .specialty--category {
+        grid-template-columns: repeat(3, 200px);
+        column-gap: 3rem;
+    }
+}
+
+
