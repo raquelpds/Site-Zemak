@@ -4,10 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
-@font-face {
-    font-family: 'minhaFonte' ;
-    src: url('WinterDisplay.otf'), url('WinterDisplayRegular.ttf') ;
-  }
 
 * {
     margin: 0;
@@ -155,7 +151,7 @@ nav .menu-btn i {
 }
 
 .header-img {
-    width: 50%;
+    width: 600px;
 }
 
 @media (max-width: 930px) {
