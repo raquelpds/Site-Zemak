@@ -171,6 +171,7 @@ nav .menu-btn i {
 }
 
 div.banner {
+    height: 100px;
     width: 100%;
     background-color: #08438B;
 
@@ -214,15 +215,20 @@ div.banner {
 
 /**Estilos da página de serviços**/
 
+
+
 .section {
     padding: 4.5rem 0 2rem;
 }
 
 .section--title {
-    font-size: 20px;
+    font-family: 'Bungee', cursive;
+    font-size: 35px;
     padding-left: 1.25rem;
     margin-bottom: 2.5rem;
     text-align: center;
+    letter-spacing: 1px;
+    line-height: 45px;
 }
 
 .container {
