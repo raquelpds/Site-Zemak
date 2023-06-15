@@ -156,7 +156,7 @@ nav .menu-btn i {
 
 @media (max-width: 930px) {
     .header {
-        padding: 100px 2%;
+        
         flex-direction: column;
         text-align: center;
         gap: 3rem;
@@ -181,6 +181,6 @@ div.banner {
     color: white;
     font-weight: 500;
     text-shadow: 2px 2px 5px black;
-    padding: 8px;
+    padding: 10px;
     
 }
