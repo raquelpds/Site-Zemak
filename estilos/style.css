@@ -116,9 +116,11 @@ nav .menu-btn i {
     max-width: 37rem;
 }
 
+
 .header-text .text-h1 {
     font-size: 3.3rem;
     font-family: 'Bungee', cursive;
+    text-align: center;
 
 }
 
@@ -128,6 +130,8 @@ nav .menu-btn i {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-style: italic;
+
+    
 }
 
 .header-text p {
@@ -144,6 +148,7 @@ nav .menu-btn i {
     font-weight: 500;
     transition: all 0.3s;
     text-decoration: none;
+
 }
 
 .header-btn:hover {
@@ -369,5 +374,6 @@ aside {
     margin-right: 96px;
     color: #ffffff;
     text-shadow: 2px 2px  2px rgba(0, 0, 0, 0.855);
+    font-style: italic;
 }
 
