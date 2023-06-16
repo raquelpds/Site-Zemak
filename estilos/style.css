@@ -280,3 +280,43 @@ div.banner {
 }
 
 
+/**  Estilo da coluna de marcas **/
+
+.marcas-title {
+    font-family: 'Bungee', cursive;
+    font-size: 28px;
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+
+.marcas-img {
+    width: 120px;
+    margin-bottom: 1rem;
+    transition: .4s;
+}
+
+.marcas--categoria {
+    margin-top: rem;
+    display: grid;
+    grid-template-columns: 120px ;
+    justify-content: center;
+    row-gap: 2.5rem;
+}
+
+@media screen and (min-width: 320px) {
+    .marcas--categoria {
+        grid-template-columns: repeat(2, 120px);
+        column-gap: 3rem;
+    }
+}
+
+@media screen  and (min-width: 656px) {
+    .marcas--categoria {
+        grid-template-columns: repeat(4, 120px);
+        column-gap: 3rem;
+    }
+}
