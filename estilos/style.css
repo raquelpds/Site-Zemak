@@ -377,3 +377,106 @@ aside {
     font-style: italic;
 }
 
+/** Estilos dos Cards Página Sobre Nós **/ 
+
+main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    line-height: 1.5;
+}
+
+.container-divs {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.card {
+    flex: 1 1 21rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    background-color: #08438B;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    align-self: normal;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.card h4 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    margin-bottom: 10px;
+    line-height: 29px;
+}
+
+.p-sobre {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+/** Estilo da parte de baixo do index **/
+
+.div-index {
+    position: relative;
+}
+
+.titulo-index {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.primeiro {
+    padding-top: 60px;
+}
+
+.p-index {
+    padding-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px; 
+
+}
+
+.mao-img {
+    width: 300px;
+    float: right;
+    position: absolute;
+    left: 80%;
+    top: 58%;
+    transform: translate(-50% , -50%);
+}
+
+
+
+footer {
+    background-color: #8fa6cb;
+    height: 25px;
+    text-align: center;
+}
