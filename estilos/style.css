@@ -12,6 +12,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/** Estilos do Menu **/
+
 nav {
     display: flex;
     height: 80px;
@@ -104,6 +106,8 @@ nav .menu-btn i {
     }
 }
 
+/** Estilos da página Index **/
+
 .header {
     width: 100%;
     display: flex;
@@ -138,6 +142,7 @@ nav .menu-btn i {
     margin-bottom: 3em;
     font-size: 1em;
     font-weight: 500;
+    text-align: justify;
 }
 
 .header-btn {
@@ -152,7 +157,7 @@ nav .menu-btn i {
 }
 
 .header-btn:hover {
-    background-color: green;
+    background-color: #29a71a;
     text-decoration: underline;
 }
 
@@ -430,6 +435,7 @@ main {
 .card p {
     margin-bottom: 10px;
     line-height: 29px;
+    text-align: justify;
 }
 
 .p-sobre {
@@ -439,7 +445,40 @@ main {
     margin-bottom: 10px;
     line-height: 45px;
     margin-bottom: 15px;
+    
 }
+
+.btn-sobre  {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+
+
+.header-btn2 {
+    background-color: #29a71a;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    line-height: 30px;
+}
+
+.header-btn2:hover {
+    background-color: #29a71a;
+    text-decoration: underline;
+}
+
+
+
 
 /** Estilo da parte de baixo do index **/
 
@@ -473,10 +512,34 @@ main {
     transform: translate(-50% , -50%);
 }
 
-
+/** Estilos do Footer **/
 
 footer {
-    background-color: #8fa6cb;
-    height: 25px;
+    background-color: #08438B;
+    height: auto;
     text-align: center;
+    margin-top: 40px;
 }
+
+footer a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+.footer {
+    color: white;
+    padding: 2px;
+    line-height: 26px;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+
+
