@@ -422,9 +422,20 @@ main {
 
 .card img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 50%;   
+}
+
+.iniciais-img {
+    width: 200px;
+    border: 8px solid #08438B;
+
+}
+
+.dono-img {
     
 }
+
+
 .card h4 {
     font-size: 1.3rem;
     text-transform: uppercase;
@@ -541,5 +552,12 @@ footer a:hover {
     
 }
 
+.local-img {
+    width: 19px;
+}
+
+.zap-img {
+    width: 19px;
+}
 
 
